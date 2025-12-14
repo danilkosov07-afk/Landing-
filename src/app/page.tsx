@@ -2,7 +2,7 @@
 
 import type React from 'react';
 import Image from 'next/image';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, type MotionValue } from 'framer-motion';
 import { useMemo, useRef, useState } from 'react';
 import { actions, advantages, galleryItems, defaultTexts } from '@/lib/content';
 import { ContentProvider, useContent } from '@/context/content';
@@ -138,7 +138,7 @@ function Header() {
 
 type HeroProps = {
   heroRef: React.RefObject<HTMLElement>;
-  parallaxY: ReturnType<typeof useTransform>;
+  parallaxY: MotionValue<number>;
   gradientId: string;
   texts: typeof defaultTexts.hero;
 };
