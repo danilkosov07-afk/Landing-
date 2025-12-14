@@ -68,6 +68,7 @@ function HomeContent() {
   return (
     <main className="min-h-screen bg-background text-text" itemScope itemType="https://schema.org/CreativeWork">
       <Header />
+      {/* @ts-expect-error - MotionValue type compatibility issue with Framer Motion */}
       <Hero
         heroRef={heroRef}
         parallaxY={parallaxY}
