@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стрелин: Кирпич с историей — премиум коллекция</title>
+    <meta
+      name="description"
+      content="Лимитированная подборка кирпичей с клеймом Стрелин: история, фактура, факты. Минималистичный лендинг с современным UX."
+    />
+    <meta
+      name="keywords"
+      content="кирпич Стрелин, исторический кирпич, коллекционный кирпич, строительные материалы премиум, архитектурное наследие"
+    />
+    <meta property="og:title" content="Стрелин: Кирпич с историей — премиум коллекция" />
+    <meta
+      property="og:description"
+      content="Лимитированная подборка кирпичей с клеймом Стрелин: история, фактура, факты."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta property="og:locale" content="ru_RU" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        color: #111827;
+        background-color: #f9fafb;
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+        background: linear-gradient(180deg, #f9fafb 0%, #ffffff 60%, #f0f4ff 100%);
+      }
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(14px);
+        border: 1px solid rgba(17, 24, 39, 0.06);
+      }
+      .shadow-soft {
+        box-shadow: 0 10px 40px rgba(17, 24, 39, 0.08);
+      }
+    </style>
+  </head>
+  <body class="bg-[#f9fafb] text-[#111827] antialiased">
+    <header class="sticky top-0 z-40 border-b border-white/60 bg-white/80 backdrop-blur-xl glass">
+      <div class="container flex items-center justify-between py-4">
+        <div class="flex items-center gap-2">
+          <div class="h-9 w-9 rounded-2xl bg-gradient-to-br from-[#6366f1] to-[#14b8a6] shadow-soft"></div>
+          <div class="font-semibold tracking-tight" style="font-family: 'Poppins', sans-serif">
+            Стрелин · Кирпич
+          </div>
+        </div>
+        <nav class="hidden items-center gap-6 text-sm font-medium md:flex">
+          <a href="#hero" class="transition hover:text-[#6366f1]">Главная</a>
+          <a href="#advantages" class="transition hover:text-[#6366f1]">Преимущества</a>
+          <a href="#actions" class="transition hover:text-[#6366f1]">Что делаем</a>
+          <a href="#gallery" class="transition hover:text-[#6366f1]">Галерея</a>
+          <a href="#contact" class="transition hover:text-[#6366f1]">Контакты</a>
+          <a
+            href="#contact"
+            class="rounded-full bg-[#6366f1] px-4 py-2 text-white shadow-lg shadow-[#6366f1]/30 transition hover:-translate-y-0.5"
+          >
+            Связаться
+          </a>
+        </nav>
+        <a
+          href="#contact"
+          class="inline-flex items-center gap-2 rounded-full bg-[#6366f1] px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-[#6366f1]/30 transition hover:-translate-y-0.5 md:hidden"
+        >
+          Связаться
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="relative overflow-hidden py-20 md:py-24">
+        <div class="absolute inset-0 pointer-events-none">
+          <div class="absolute -left-32 top-0 h-64 w-64 rounded-full bg-[#6366f1]/10 blur-3xl"></div>
+          <div class="absolute right-0 top-10 h-72 w-72 rounded-full bg-[#14b8a6]/10 blur-3xl"></div>
+        </div>
+        <div class="container grid items-center gap-12 md:grid-cols-2">
+          <div class="space-y-6">
+            <p class="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-[#6366f1] shadow-soft ring-1 ring-[#6366f1]/15">
+              Историческая коллекция · ручной отбор
+            </p>
+            <h1 class="text-3xl font-semibold leading-tight tracking-tight text-[#111827] sm:text-4xl lg:text-5xl" style="font-family: 'Poppins', sans-serif">
+              Кирпичи с клеймом «Стрелин». История, фактура, редкость.
+            </h1>
+            <p class="max-w-2xl text-base text-gray-700 sm:text-lg">
+              Собрали лимитированную серию исторических кирпичей с сохранившимися клеймами. Чистый минималистичный опыт: никаких лишних элементов — только факты, текстура и ясная подача.
+            </p>
+            <div class="flex flex-wrap items-center gap-4">
+              <a
+                href="#contact"
+                class="rounded-full bg-[#6366f1] px-6 py-3 text-white shadow-lg shadow-[#6366f1]/30 transition hover:-translate-y-0.5 hover:shadow-xl"
+              >
+                Оставить заявку
+              </a>
+              <a
+                href="#gallery"
+                class="rounded-full border border-gray-200 px-6 py-3 text-sm font-semibold text-[#111827] transition hover:-translate-y-0.5 hover:border-[#6366f1] hover:text-[#6366f1]"
+              >
+                Смотреть галерею
+              </a>
+            </div>
+            <div class="flex items-center gap-6 text-sm text-gray-600">
+              <div>Документированное происхождение</div>
+              <div class="h-5 w-px bg-gray-200"></div>
+              <div>Поставки под ключ</div>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="relative overflow-hidden rounded-3xl border border-white/70 bg-white shadow-soft">
+              <svg viewBox="0 0 400 400" class="h-full w-full" aria-hidden="true">
+                <defs>
+                  <linearGradient id="grad" x1="0%" x2="100%" y1="0%" y2="100%">
+                    <stop offset="0%" stop-color="#6366f1" />
+                    <stop offset="50%" stop-color="#14b8a6" />
+                    <stop offset="100%" stop-color="#f59e0b" />
+                  </linearGradient>
+                </defs>
+                <rect x="60" y="60" width="280" height="280" rx="48" fill="url(#grad)" opacity="0.12" />
+                <path d="M40 200 Q200 60 360 200 Q200 340 40 200Z" fill="url(#grad)" opacity="0.1" />
+                <circle cx="200" cy="200" r="110" stroke="url(#grad)" stroke-width="12" fill="none" />
+              </svg>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="glass shadow-soft rounded-2xl px-8 py-6 text-center">
+                  <p class="text-sm uppercase tracking-[0.18em] text-gray-500">Клеймо «Стрелин»</p>
+                  <p class="mt-2 text-2xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">1790 · 1845 · 1870</p>
+                  <p class="mt-3 text-sm text-gray-600">Период производства по историческим справкам. Уточняем по запросу.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="advantages" class="py-20 md:py-24">
+        <div class="container space-y-10">
+          <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p class="text-sm font-semibold text-[#6366f1]">Зачем выбирать нас</p>
+              <h2 class="mt-2 text-3xl font-semibold text-[#111827] md:text-4xl" style="font-family: 'Poppins', sans-serif">
+                Премиальный опыт без перегруза
+              </h2>
+              <p class="mt-3 max-w-2xl text-gray-700">
+                Минимализм в подаче, глубина в фактах: предоставляем точную информацию, изображения высокой четкости и быструю коммуникацию.
+              </p>
+            </div>
+            <span class="text-sm text-gray-500">4 карточки</span>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            <div class="group rounded-2xl border border-white/70 bg-white p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-xl">
+              <div class="text-2xl">🏛️</div>
+              <h3 class="mt-4 text-xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Аутентичность эпохи</h3>
+              <p class="mt-3 text-sm text-gray-700">Каждый экземпляр с клеймом «Стрелин» — подтверждённый исторический артефакт.</p>
+            </div>
+            <div class="group rounded-2xl border border-white/70 bg-white p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-xl">
+              <div class="text-2xl">🧱</div>
+              <h3 class="mt-4 text-xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Премиальная фактура</h3>
+              <p class="mt-3 text-sm text-gray-700">Текстура и оттенок сохранили естественную патину времени — идеально для интерьеров.</p>
+            </div>
+            <div class="group rounded-2xl border border-white/70 bg-white p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-xl">
+              <div class="text-2xl">📜</div>
+              <h3 class="mt-4 text-xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Экспертная атрибуция</h3>
+              <p class="mt-3 text-sm text-gray-700">Работаем по источникам и каталогам, опираясь на архивные данные и экспертизу.</p>
+            </div>
+            <div class="group rounded-2xl border border-white/70 bg-white p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-xl">
+              <div class="text-2xl">✨</div>
+              <h3 class="mt-4 text-xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Кураторский подход</h3>
+              <p class="mt-3 text-sm text-gray-700">Подбор под экспозиции, премиум-отделку и private коллекции.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="actions" class="py-20 md:py-24">
+        <div class="container space-y-10">
+          <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p class="text-sm font-semibold text-[#14b8a6]">Что мы делаем</p>
+              <h2 class="mt-2 text-3xl font-semibold text-[#111827] md:text-4xl" style="font-family: 'Poppins', sans-serif">
+                От исследования до поставки
+              </h2>
+              <p class="mt-3 max-w-2xl text-gray-700">
+                Собираем экспертные данные, оформляем коллекции, сопровождаем доставку и делаем медиа-поддержку.
+              </p>
+            </div>
+            <p class="text-sm text-gray-500">Появление при скролле</p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2">
+            <div class="rounded-2xl border border-white/70 bg-gradient-to-br from-white to-slate-50 p-6 shadow-soft">
+              <div class="flex items-center justify-between">
+                <h3 class="text-xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Исследование происхождения</h3>
+                <span class="rounded-full bg-[#6366f1]/10 px-3 py-1 text-xs font-semibold text-[#6366f1]">1</span>
+              </div>
+              <p class="mt-3 text-sm text-gray-700">Архивные справки, консультации историков, сверка с каталогами.</p>
+            </div>
+            <div class="rounded-2xl border border-white/70 bg-gradient-to-br from-white to-slate-50 p-6 shadow-soft">
+              <div class="flex items-center justify-between">
+                <h3 class="text-xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Кураторский подбор</h3>
+                <span class="rounded-full bg-[#6366f1]/10 px-3 py-1 text-xs font-semibold text-[#6366f1]">2</span>
+              </div>
+              <p class="mt-3 text-sm text-gray-700">Коллекции под интерьер, экспозицию или подарочные наборы.</p>
+            </div>
+            <div class="rounded-2xl border border-white/70 bg-gradient-to-br from-white to-slate-50 p-6 shadow-soft">
+              <div class="flex items-center justify-between">
+                <h3 class="text-xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Доставка и хранение</h3>
+                <span class="rounded-full bg-[#6366f1]/10 px-3 py-1 text-xs font-semibold text-[#6366f1]">3</span>
+              </div>
+              <p class="mt-3 text-sm text-gray-700">Упаковка, логистика и рекомендации по консервации.</p>
+            </div>
+            <div class="rounded-2xl border border-white/70 bg-gradient-to-br from-white to-slate-50 p-6 shadow-soft">
+              <div class="flex items-center justify-between">
+                <h3 class="text-xl font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Медиа сопровождение</h3>
+                <span class="rounded-full bg-[#6366f1]/10 px-3 py-1 text-xs font-semibold text-[#6366f1]">4</span>
+              </div>
+              <p class="mt-3 text-sm text-gray-700">Карточки экспонатов, истории и визуальные материалы.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="py-20 md:py-24">
+        <div class="container space-y-10">
+          <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p class="text-sm font-semibold text-[#f59e0b]">Галерея</p>
+              <h2 class="mt-2 text-3xl font-semibold text-[#111827] md:text-4xl" style="font-family: 'Poppins', sans-serif">
+                Фактура и детали
+              </h2>
+              <p class="mt-3 max-w-2xl text-gray-700">
+                Изображения в высоком разрешении. Ленивая загрузка снижает вес для мобильных.
+              </p>
+            </div>
+            <p class="text-sm text-gray-500">Lazy-load · hover depth</p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2">
+            <figure class="group overflow-hidden rounded-3xl border border-white/70 bg-white shadow-soft">
+              <div class="relative aspect-[4/3] overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1507963901243-1fda3a3e59b0?auto=format&fit=crop&w=1600&q=80"
+                  alt="Текстура исторического кирпича"
+                  loading="lazy"
+                  class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                />
+              </div>
+              <figcaption class="flex items-center justify-between px-5 py-4">
+                <div>
+                  <p class="text-sm font-semibold text-[#111827]">Фактура XVIII века</p>
+                  <p class="text-xs text-gray-600">Текстура исторического кирпича</p>
+                </div>
+                <span class="text-sm text-[#6366f1]">View</span>
+              </figcaption>
+            </figure>
+            <figure class="group overflow-hidden rounded-3xl border border-white/70 bg-white shadow-soft">
+              <div class="relative aspect-[4/3] overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=1600&q=80"
+                  alt="Клеймо на кирпиче"
+                  loading="lazy"
+                  class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                />
+              </div>
+              <figcaption class="flex items-center justify-between px-5 py-4">
+                <div>
+                  <p class="text-sm font-semibold text-[#111827]">Клеймо «Стрелин»</p>
+                  <p class="text-xs text-gray-600">Клеймо на кирпиче</p>
+                </div>
+                <span class="text-sm text-[#6366f1]">View</span>
+              </figcaption>
+            </figure>
+            <figure class="group overflow-hidden rounded-3xl border border-white/70 bg-white shadow-soft">
+              <div class="relative aspect-[4/3] overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1465808024384-44cbb4602070?auto=format&fit=crop&w=1600&q=80"
+                  alt="Сет исторических кирпичей"
+                  loading="lazy"
+                  class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                />
+              </div>
+              <figcaption class="flex items-center justify-between px-5 py-4">
+                <div>
+                  <p class="text-sm font-semibold text-[#111827]">Коллекционный сет</p>
+                  <p class="text-xs text-gray-600">Сет исторических кирпичей</p>
+                </div>
+                <span class="text-sm text-[#6366f1]">View</span>
+              </figcaption>
+            </figure>
+            <figure class="group overflow-hidden rounded-3xl border border-white/70 bg-white shadow-soft">
+              <div class="relative aspect-[4/3] overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?auto=format&fit=crop&w=1600&q=80"
+                  alt="Историческая кладка"
+                  loading="lazy"
+                  class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                />
+              </div>
+              <figcaption class="flex items-center justify-between px-5 py-4">
+                <div>
+                  <p class="text-sm font-semibold text-[#111827]">Архитектурные детали</p>
+                  <p class="text-xs text-gray-600">Историческая кладка</p>
+                </div>
+                <span class="text-sm text-[#6366f1]">View</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-20 md:py-24">
+        <div class="container grid gap-10 lg:grid-cols-2">
+          <div class="space-y-5">
+            <p class="text-sm font-semibold text-[#6366f1]">Контакты</p>
+            <h2 class="text-3xl font-semibold text-[#111827] md:text-4xl" style="font-family: 'Poppins', sans-serif">
+              Оставьте заявку — ответим в течение рабочего дня
+            </h2>
+            <p class="text-gray-700">
+              Расскажите, что вам нужно: подбор, консультация, логистика или работа с экспозицией. Мы подготовим персональный ответ.
+            </p>
+            <div class="flex flex-wrap gap-4 text-sm text-gray-600">
+              <span class="rounded-full bg-white px-3 py-2 shadow-soft">+7 (999) 999-99-99</span>
+              <span class="rounded-full bg-white px-3 py-2 shadow-soft">hello@strelin.art</span>
+            </div>
+          </div>
+          <form class="glass rounded-3xl p-6 shadow-soft ring-1 ring-white/60">
+            <div class="space-y-4">
+              <label class="block space-y-2 text-sm font-medium text-[#111827]">
+                <span>Имя</span>
+                <input
+                  name="name"
+                  required
+                  class="w-full rounded-2xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] transition focus:border-[#6366f1] focus:outline-none focus:ring-2 focus:ring-[#6366f1]/30"
+                />
+              </label>
+              <label class="block space-y-2 text-sm font-medium text-[#111827]">
+                <span>Email</span>
+                <input
+                  name="email"
+                  type="email"
+                  required
+                  class="w-full rounded-2xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] transition focus:border-[#6366f1] focus:outline-none focus:ring-2 focus:ring-[#6366f1]/30"
+                />
+              </label>
+              <label class="block space-y-2 text-sm font-medium text-[#111827]">
+                <span>Сообщение</span>
+                <textarea
+                  name="message"
+                  rows="4"
+                  required
+                  class="w-full resize-none rounded-2xl border border-gray-200 bg-white px-4 py-3 text-sm text-[#111827] transition focus:border-[#6366f1] focus:outline-none focus:ring-2 focus:ring-[#6366f1]/30"
+                ></textarea>
+              </label>
+              <button
+                type="submit"
+                class="flex w-full items-center justify-center gap-2 rounded-full bg-[#6366f1] px-6 py-3 font-semibold text-white shadow-lg shadow-[#6366f1]/30 transition hover:-translate-y-0.5 hover:shadow-xl"
+              >
+                Отправить заявку →
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/70 bg-white/70 py-10 backdrop-blur">
+      <div class="container flex flex-col gap-4 text-sm text-gray-600 md:flex-row md:items-center md:justify-between">
+        <div>
+          <div class="text-lg font-semibold text-[#111827]" style="font-family: 'Poppins', sans-serif">Стрелин · Коллекция</div>
+          <p class="text-xs text-gray-500">Чистый UX, уважение к истории.</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="#hero" class="hover:text-[#6366f1]">Наверх</a>
+          <a href="#contact" class="hover:text-[#6366f1]">Контакты</a>
+          <span>© <span id="year"></span></span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
