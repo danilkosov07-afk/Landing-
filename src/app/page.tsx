@@ -191,6 +191,7 @@ function Hero({ heroRef, parallaxY, gradientId, texts }: HeroProps) {
         </motion.div>
         <motion.div
           className="relative"
+          // @ts-expect-error - Framer Motion accepts MotionValue in style prop
           style={{ y: parallaxY }}
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
